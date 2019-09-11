@@ -22,7 +22,7 @@ class JsonFactory
         $this->data = json_decode($json);
 
         if (!$this->data) {
-            throw new Exception("Passed JSON is not valid! " . print_r($json, true));
+            throw new \Exception("Passed JSON is not valid! " . print_r($json, true));
         }
 
         if ($key !== null) {
