@@ -3,5 +3,8 @@
   "description": "Wrapper library for parsing json, that allows CRUD operations and filtering on whole batch of data.\n",
   "require": {
     "php": ">=7"
+  },
+  "autoload": {
+    "files": ["JsonFactory.php", "Dto_JsonFactory.php"]
   }
 }
